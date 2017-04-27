@@ -1,0 +1,8 @@
+<span> name   </span> <span>   postion </span> <span>   status</span>
+<div *ngFor="let interviewee of interviewees">
+  <span> {{interviewee.name}} </span>
+  <span interviewStatus> {{interviewee.applyPosition}} </span>
+  <span *passOrNot="interviewee.status" style="color:green;"> Pass! Congratulation </span>
+  <span *passOrNot="!interviewee.status" style="color:red;" > Fail! Please try again </span>
+  <button (click) = "interviewee.status=!interviewee.status" > Pass or not?</button>
+</div>

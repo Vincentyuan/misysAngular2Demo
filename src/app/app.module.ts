@@ -3,18 +3,29 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { RootComponent } from './app.component';
+import { InterviewerComponent } from './interviewer.component';
+import { IntervieweesComponent } from './interviewees.component';
+import { AppRoutingModule } from './routing.module';
+import { InterviewHttpService } from './interview.service';
+import { InterviewStatus } from "./status.directive";
+import { PassDirective } from "./structural.directive";
 
 @NgModule({
   declarations: [
-    AppComponent
+    RootComponent,
+    InterviewerComponent,
+    IntervieweesComponent,
+    InterviewStatus,
+    PassDirective
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [InterviewHttpService],
+  bootstrap: [RootComponent]
 })
 export class AppModule { }

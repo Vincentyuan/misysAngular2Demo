@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app works!';
+export class RootComponent {
+  title = 'welcome to angular2!';
+
+  constructor(
+    private router :Router
+  ){
+
+  }
+
+  private findMore():void{
+    this.router.navigate(['/interviewer']);
+  }
 }

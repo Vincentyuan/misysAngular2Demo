@@ -1,0 +1,22 @@
+{
+  "interviewer":{
+    "name" : "nicolas",
+    "position"  : "Product Manager"
+  },
+  "interviewees":[
+    {
+      "name":"ping",
+      "school" : "EFRIE",
+      "evaluation" : "",
+      "applyPosition":"misysboard",
+      "status" : true
+    },
+    {
+      "name" :"ping2",
+      "school": "beijing university",
+      "evaluation":"",
+      "status":false,
+      "applyPosition":"fusion risk"
+    }
+  ]
+}
