@@ -7,7 +7,7 @@ import { IntervieweesComponent } from './interviewees.component';
 
 const routes: Routes = [
 
-  { path: 'index',  component: RootComponent },
+  // { path: 'index',  component: RootComponent },
   { path: 'interviewer', component: InterviewerComponent }
   // ,
   // { path: 'interviewees', component: IntervieweesComponent }

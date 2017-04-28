@@ -1,7 +1,7 @@
 
 export class Interviewer{
-  private name : string ;
-  private position : string ;
+  name : string ;
+  position : string ;
   constructor(){
     this.name ="";
     this.position = "";
@@ -9,15 +9,16 @@ export class Interviewer{
 }
 
 export class Interviewee{
-  private name : string;
-  private school: string ;
-  private applyPosition :string;
-  private evaluation : string ;
-  private status : boolean;
+  name : string;
+  school: string ;
+  applyPosition :string;
+  evaluation : string ;
+  status : boolean;
   constructor(){
     this.name = "";
     this.school = "";
     this.applyPosition = "";
     this.evaluation="";
+    this.status = false;
   }
 }

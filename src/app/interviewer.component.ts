@@ -8,7 +8,7 @@ import { Interviewer, Interviewee } from './entity';
 })
 export class InterviewerComponent {
   //infor = 'i am interviewer!';
-  private interviewer : Interviewer  = new Interviewer();
+  interviewer : Interviewer  = new Interviewer();
   constructor(
     private interviewHttpService :InterviewHttpService
   ){

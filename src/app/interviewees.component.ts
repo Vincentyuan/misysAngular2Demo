@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Interviewer, Interviewee } from './entity';
 import { InterviewHttpService } from "./interview.service";
-import { InterviewStatus } from "./status.directive";
+import { HighLight } from "./status.directive";
 
 @Component({
   selector: 'interviewees',
@@ -9,7 +9,7 @@ import { InterviewStatus } from "./status.directive";
 
 })
 export class IntervieweesComponent {
-  private interviewees : Interviewee[] = [];
+  interviewees : Interviewee[] = [];
   constructor(
     private interviewHttpService : InterviewHttpService
   ){

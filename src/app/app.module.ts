@@ -8,7 +8,7 @@ import { InterviewerComponent } from './interviewer.component';
 import { IntervieweesComponent } from './interviewees.component';
 import { AppRoutingModule } from './routing.module';
 import { InterviewHttpService } from './interview.service';
-import { InterviewStatus } from "./status.directive";
+import { HighLight } from "./status.directive";
 import { PassDirective } from "./structural.directive";
 
 @NgModule({
@@ -16,7 +16,7 @@ import { PassDirective } from "./structural.directive";
     RootComponent,
     InterviewerComponent,
     IntervieweesComponent,
-    InterviewStatus,
+    HighLight,
     PassDirective
   ],
   imports: [

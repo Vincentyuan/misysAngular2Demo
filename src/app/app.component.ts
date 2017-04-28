@@ -15,7 +15,11 @@ export class RootComponent {
 
   }
 
-  private findMore():void{
+  findMore():void{
     this.router.navigate(['/interviewer']);
+  }
+
+  goBack():void{
+    this.router.navigate(['/']);
   }
 }
