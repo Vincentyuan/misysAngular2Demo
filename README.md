@@ -1,3 +1,13 @@
+# Introduce
+
+This project is a angular4 demo application that contains the router/http/service/structure directive/attribute directive/sub component and so on. 
+
+And this demo is prepared for the presentation for misys team member.
+
+# Scenerio 
+
+The scenerio for this demo is for interview. Interviewer can find the information of interviewee and set the status of interview result.
+
 # MisysAngular2Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
