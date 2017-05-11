@@ -10,6 +10,7 @@ import { AppRoutingModule } from './routing.module';
 import { InterviewHttpService } from './interview.service';
 import { HighLight } from "./status.directive";
 import { PassDirective } from "./structural.directive";
+import { LineThroughDirective } from "./attribute.directive";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PassDirective } from "./structural.directive";
     InterviewerComponent,
     IntervieweesComponent,
     HighLight,
-    PassDirective
+    PassDirective,
+    LineThroughDirective
   ],
   imports: [
     BrowserModule,

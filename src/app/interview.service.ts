@@ -22,7 +22,8 @@ export class InterviewHttpService{
   }
 
   getInterviewInfor():Observable<any>{
-    return this.http.get(this.relativeUrl);
+    return this.http.get(this.dataURL);
+    // return this.http.get("data.json");
   }
 
 }
